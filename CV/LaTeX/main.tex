@@ -1,0 +1,157 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+%
+%% Modified by Aakash Patil(https://github.com/aakash30jan) (June 2016)
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstylef' and 'banking'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.9]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Name}{Surname}
+\title{Roll No}
+\insti{University of Pune}
+\address{Room Number}{Hostel Name}{UniPune}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+91-XYZ}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{abc@xyz.com}                               % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+\photo[64pt][0.4pt]{logo.png}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+%\makecvtitle
+\noindent\begin{minipage}{.70\textwidth}
+  \makecvtitle
+\end{minipage}%
+\begin{minipage}{.30\textwidth}
+  \centering
+  \includegraphics[height=3cm]{logo.png}
+\end{minipage}
+\section{Education}
+\begin{cvcolumns}
+  \cvcolumn[0.35]{Program}{
+  \item Dual Degree (B.Tech+M.Tech),\newline{} Computer Science and Engineering
+  \item XIIth Std. (Maharashtra State Board)
+  \item Xth Std. (CBSE)}
+  \cvcolumn[0.38]{Institution}{
+  \item University of Pune \newline{}
+  \item ABC
+  \item XYZ}
+  \cvcolumn[0.08]{\%/CGPA}{
+  \item  \textbf{~~~ABC} \newline{}                               
+  \item \textbf{~~~PQR} 
+  \item \textbf{~~~XYZ} }
+  \cvcolumn{Year of completion}{
+  \item ~~~~~~~~~~2016 \newline{}                         
+  \item ~~~~~~~~~~2011
+  \item ~~~~~~~~~~2009}
+\end{cvcolumns}
+
+\section{Scholastic Achievements}
+\cvlistitem {ABC}
+\cvlistitem {PQR}
+\cvlistitem {XYZ}
+
+\section{Course and Lab Projects}
+\cventry{DYPIEMR University of Pune\textsuperscript{1},India}{Supervisor: Prof. XYZ}{Course Project Title }{Apr 2015- June 2016}{}{} % Details= Here Goes the discription of your project which later goes to webiste  ; Image=project1.png ; URL="http://unipune.ac.in/myLab/MyProject.pdf" \\
+
+\cventry{DYPIEMR University of Pune\textsuperscript{1},India}{Supervisor: Prof. XYZ}{Course Project Title }{Apr 2015- June 2016}{}{} % Details= Here Goes the discription of your project which later goes to webiste  ; Image=project1.png ; URL="http://unipune.ac.in/myLab/MyProject.pdf" \\
+
+\section{Key Projects}
+\cventry{DYPIEMR University of Pune\textsuperscript{1},India}{Supervisor: Prof. XYZ}{Project Title}{Apr 2016-Dec 2016}{}{} % Details= Here Goes the discription of your project which later goes to webiste  ; Image=project1.png ; URL="http://unipune.ac.in/myLab/MyProject.pdf" 
+
+\cventry{DYPIEMR University of Pune\textsuperscript{1},India}{Supervisor: Prof. XYZ}{Project Title}{Apr 2016-Dec 2016}{}{} % Details= Here Goes the discription of your project which later goes to webiste  ; Image=project1.png ; URL="http://unipune.ac.in/myLab/MyProject.pdf" 
+
+\section{Course Work}
+\subsection{Key Courses}
+\cvlistdoubleitem{A}{B} 
+\cvlistdoubleitem{C}{P}
+\cvlistdoubleitem{Q}{R}
+
+\subsection{Category1 Courses}
+\cvlistdoubleitem{A}{B}
+\cvlistdoubleitem{C}{P}
+\cvlistdoubleitem{Q}{R}
+
+\subsection{Electives}
+\cvlistdoubleitem{A}{B}
+\cvlistdoubleitem{C}{P}
+\cvlistdoubleitem{Q}{R}
+\\
+
+\section{Skills and Tools}
+\cvlistitem{Languages - }
+\cvlistitem{Operating Systems - }
+\cvlistitem{Applications and Tools - }
+\cvlistitem{A}
+\cvlistitem{B}
+}
+
+
+\section{Positions of Responsibility}
+\begin{itemize}
+\item ABC\textsuperscript{1} 
+\item PQR\textsuperscript{2} 
+\item X
+\item Y
+\item Z
+\end{itemize}
+\end{itemize}
+
+\section{Extra - Curricular Activities}
+\begin{itemize}
+\item A
+\item B
+\item C
+\end{itemize}
+ \section{Objective}
+To secure a challenging internship to explore my interests in computer science, improve my skill set and contribute to
+the industry to my maximum.
+\section{Declaration}
+I hereby declare that all the information given above is true to the best of my knowledge as on July 31\textsuperscript{th}, 2014.
+
+
+
+\section {}
+\cvlistdoubleitem{\textsuperscript{1} \scriptsize{Apple Banana Cat}}{\textsuperscript{2} \scriptsize{Explanation of PQR in words}}
+
+%----------------------------------------------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------------------------------------------
+\end{document}
+
+
+%% end of file `template.tex'.
