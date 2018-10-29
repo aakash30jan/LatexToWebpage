@@ -2,7 +2,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1464274.svg)](https://doi.org/10.5281/zenodo.1464274)
 
 A pythonic way of putting LaTeX CV data to your webpage.  
-This code makes use of Moderncv documentclass by Xavier Danaux (https://github.com/xdanaux/moderncv) and webpage by Jon Barron's code (https://github.com/jonbarron/jonbarron_website).  
+This code makes use of Moderncv documentclass by Xavier Danaux (https://github.com/xdanaux/moderncv) and webpage style-sheet by Jon Barron's code (https://github.com/jonbarron/jonbarron_website).  
 
 
 ## Directory Structure:
@@ -35,15 +35,14 @@ This code makes use of Moderncv documentclass by Xavier Danaux (https://github.c
 
 ## Download  
 Clone the repository with:  
-`$ git clone https://github.com/aakash30jan/Couette-Poiseuille_FlowCode.git`  
+`$ git clone https://github.com/aakash30jan/LatexToWebpage.git`  
 
 ## Using the code:
-After you are done with editing the `./CV/LaTeX/main.tex` and the marked entries in `./index.html` proceed as follows:  
+After you are done with editing the `./CV/LaTeX/main.tex` (the main latex file where you write your CV)  and the marked entries in `./index.html` (the main webpage file where you write your profile) proceed as follows:  
 1. Execute with `bash makeSite.sh`.  
 2. Your generated CV can be checked with `evince ./CV/myCV.pdf`.  
 3. Your updated webpage can be checked with `firefox index.html`.  
 4. You may now upload the webpage to your favourite hosting service !  
-
 
 ## Issues:
 Problems? Please raise an issue at "https://github.com/aakash30jan/LatexToWebpage/issues" and I will get back to you soon.  
