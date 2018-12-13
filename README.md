@@ -48,4 +48,4 @@ After you are done with editing the `./CV/LaTeX/main.tex` (the main latex file w
 Problems? Please raise an issue at "https://github.com/aakash30jan/LatexToWebpage/issues" and I will get back to you soon.  
 Please use `https://doi.org/10.5281/zenodo.1464274` if you wish to cite this code.  
 ## License
-[GNU](./LICENSE)
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
