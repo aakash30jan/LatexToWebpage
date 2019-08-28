@@ -1,5 +1,6 @@
 # LatexToWebpage
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1464274.svg)](https://doi.org/10.5281/zenodo.1464274)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1464274.svg)](https://doi.org/10.5281/zenodo.1464274)  
+[![HitCount](http://hits.dwyl.io/aakash30jan/LatexToWebpage.svg)](http://hits.dwyl.io/aakash30jan/LatexToWebpage)
 
 A pythonic way of putting LaTeX CV data to your webpage.  
 This code makes use of Moderncv documentclass by Xavier Danaux (https://github.com/xdanaux/moderncv) and webpage style-sheet by Jon Barron's code (https://github.com/jonbarron/jonbarron_website).  
